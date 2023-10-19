@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title_site{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.main-group{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.video-song{
+   width: 1000px;
+   height: 800px;
+   position: relative;
+}
+.main-link_item{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+.main-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
